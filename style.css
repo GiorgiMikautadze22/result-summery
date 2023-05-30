@@ -54,13 +54,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #232323;
 }
 
 .container {
   width: 375px;
   height: 809px;
-  border: 2px solid red;
-  /* margin: auto; */
+  margin: auto;
+  background-color: var(--white);
 }
 
 .bluebox {
@@ -127,6 +128,19 @@ p {
   margin: 8px 57px 40px 58px;
 }
 
+.lowhead {
+  margin-top: 24px;
+  margin-left: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--darknavy);
+}
+
+.boxes {
+  display: grid;
+  justify-content: center;
+}
+
 .box1 {
   background: linear-gradient(
       0deg,
@@ -136,14 +150,60 @@ p {
     #ff5555;
   width: 315px;
   height: 55px;
-  border: 2px solid blue;
   border-radius: 12px;
   display: grid;
   grid-template-columns: auto auto auto;
+  margin-top: 24px;
+}
+
+.box2 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+  width: 315px;
+  height: 55px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 16px;
+}
+
+.box3 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+  width: 315px;
+  height: 55px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 16px;
+}
+
+.box4 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+  width: 315px;
+  height: 55px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 16px;
 }
 
 .dividion {
   display: flex;
+  margin-right: 16px;
 }
 
 .first {
@@ -172,4 +232,46 @@ p {
   color: var(--darknavy);
   opacity: 0.5;
   margin-top: 15px;
+}
+
+.sence1 {
+  position: relative;
+  right: 7%;
+}
+
+.sence2 {
+  position: relative;
+  right: 7%;
+  color: var(--yellow);
+}
+
+.sence3 {
+  position: relative;
+  right: 7%;
+  color: var(--green);
+}
+
+.sence4 {
+  position: relative;
+  right: 7%;
+  color: var(--blue);
+}
+
+.vision {
+  margin-top: 19px;
+}
+
+.fix {
+  margin-left: 138px;
+}
+
+button {
+  width: 315px;
+  height: 56px;
+  border-radius: 128px;
+  background-color: var(--darknavy);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
 }
