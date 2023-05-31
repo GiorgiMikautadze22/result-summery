@@ -54,14 +54,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #232323;
+  background: #ecf2ff;
 }
 
 .container {
   width: 375px;
   height: 809px;
-  margin: auto;
+  /* margin: auto; */
   background-color: var(--white);
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
 }
 
 .bluebox {
@@ -139,15 +140,11 @@ p {
 .boxes {
   display: grid;
   justify-content: center;
+  bac
 }
 
 .box1 {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.95),
-      rgba(255, 255, 255, 0.95)
-    ),
-    #ff5555;
+  background:  linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
   width: 315px;
   height: 55px;
   border-radius: 12px;
@@ -274,4 +271,92 @@ button {
   font-size: 18px;
   font-weight: 700;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 736px;
+    height: 512px;
+    border-radius: 32px;
+  }
+
+  .bluebox {
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+  }
+
+  .top {
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 35px;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .mainnum {
+    margin-top: 15%;
+    font-size: 72px;
+  }
+
+  .under {
+    font-size: 18px;
+  }
+
+  .performance {
+    font-size: 32px;
+    margin-top: 28px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-top: 14px;
+  }
+
+  .summary {
+    display: grid;
+    justify-content: right;
+    position: relative;
+    bottom: 100%;
+    right: 40px;
+  }
+
+  .lowhead {
+    font-size: 24px;
+    position: relative;
+    right: 15%;
+    margin-top: 38px;
+  }
+
+  .boxes {
+    width: 288px;
+    height: 56px;
+  }
+
+  .box1 {
+    margin-top: 28px;
+  }
+
+  button {
+    width: 288px;
+    margin: auto;
+    margin-top: 41px;
+    cursor: pointer;
+  }
+
+  .first {
+    font-size: 18px;
+  }
+
+  .dividion {
+    font-size: 18px;
+    position: relative;
+    right: 5%;
+    
+  }
+
+ 
 }
