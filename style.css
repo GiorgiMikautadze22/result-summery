@@ -345,6 +345,11 @@ button {
     margin: auto;
     margin-top: 41px;
     cursor: pointer;
+    border: none;
+  }
+
+  button:hover{
+    background: var(--lightgrad);
   }
 
   .first {
@@ -357,6 +362,8 @@ button {
     right: 5%;
     
   }
+
+
 
  
 }
